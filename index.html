@@ -19,6 +19,13 @@
 		var s = document.getElementsByTagName("script")[0];
 		s.parentNode.insertBefore(hm, s);
 	})();
+	
+	function setImg5Height(){
+		var img4 = document.getElementById("img4");
+		var img5 = document.getElementById("img5");
+		img5.style.height = img4.style.height;
+	}
+	setImg5Height();
 </script>
 
 
@@ -45,12 +52,12 @@
 		<div class="row">
 			<div class="col-xs-4 col-md-4">
 				<a href="https://Jomme123.github.io"
-					class="thumbnail"> <img src="resource/images/4.jpg" alt="...">
+					class="thumbnail"> <img id="img4" src="resource/images/4.jpg" alt="...">
 				</a>
 			</div>
 			<div class="col-xs-4 col-md-4">
 				<a href="https://Jomme123.github.io"
-					class="thumbnail"> <img src="resource/images/5.jpg" alt="...">
+					class="thumbnail"> <img id="img5" src="resource/images/5.jpg" alt="...">
 				</a>
 			</div>
 			<div class="col-xs-4 col-md-4">
