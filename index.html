@@ -20,12 +20,11 @@
 		s.parentNode.insertBefore(hm, s);
 	})();
 	
-	function setImg5Height(){
+	window.onload  = function(){
 		var img4 = document.getElementById("img4");
 		var img5 = document.getElementById("img5");
-		img5.style.height = img4.height;
+		img5.style.height = img4.offsetHeight;
 	}
-	setImg5Height();
 </script>
 
 
